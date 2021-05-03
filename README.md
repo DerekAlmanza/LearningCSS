@@ -7,3 +7,7 @@ Clone el repositorio y ejecute index.html de la carpeta, ahí tendrá un menú s
 También puede ver la página desde aquí: https://derekalmanza.github.io/LearningCSS/
 
 ### Contenido:
+
+* Conectar CSS con HTML.
+* Sintaxis básica.
+* Tipos de selectores.
