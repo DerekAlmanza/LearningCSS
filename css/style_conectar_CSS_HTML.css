@@ -1,3 +1,10 @@
 body {
     background-color: steelblue;
 }
+
+.botones {
+    margin-bottom: 15px;
+    border-radius: 10px;
+    border-color: antiquewhite;
+    cursor: pointer;
+}

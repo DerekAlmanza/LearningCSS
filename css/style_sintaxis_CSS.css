@@ -1,0 +1,23 @@
+/*
+Sintaxis de CSS.
+    * Selector: El elemento al que vamos a aplicar los estilos.
+    * Propiedad: Lo que vamos a cambiar.
+    * Valor: El nuevo valor que va a tener.
+    * Propiedad: Valor -> Se le denomina declaración.
+    * Regla: Conjunto de selectores + declaraciones. 
+*/
+
+/*Selector*/
+body {                              /* Regla*/
+    /* propiedad:valor; */          /* Regla*/
+    background-color: rgb(18, 190, 190);       /* Regla*/
+    text-align: center;            /* Regla*/
+}                                   /* Regla*/   
+
+.botones {
+    margin-top: 10%;
+    margin-bottom: 15px;
+    border-radius: 10px;
+    border-color: antiquewhite;
+    cursor: pointer;
+}

@@ -6,3 +6,10 @@ body {
 .title {
     color: white;
 }
+
+.botones {
+    margin-bottom: 15px;
+    border-radius: 10px;
+    border-color: antiquewhite;
+    cursor: pointer;
+}
