@@ -19,7 +19,7 @@ También puede ver la página desde aquí: https://derekalmanza.github.io/Learni
             * Selectores de id. 
             * Selectores de clase.
             * Otros atributos.
-    <!-- * Selectores compuestos.
+    * Selectores compuestos.
         * Selectores agrupados.
-        * Selectores combinados.
+    <!--     * Selectores combinados.
         * Pseudoclases - Pseudoelementos. -->
