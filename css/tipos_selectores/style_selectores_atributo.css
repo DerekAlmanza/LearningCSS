@@ -1,0 +1,54 @@
+/* 
+- Selectores simples: 
+    * Selectores de atributo.
+            * Selecotres de id -> id del elemento
+            * Selectores de clase -> clase del elemento
+            * Otros atributos -> [atributo]. 
+                                 [atributo=valor]
+                                 [atributo^=valor] Comprueba si el atributo comienza con el valor.
+                                 [atributo*= valor] Comprueba si el atributo tiene el valor, esté donde esté.
+                                 [atributo$=valor] Compurueba si el atributo termina con el valor.
+                                 [atributo|=valor] Funciona como si el valor tuviera guión o no.
+*/
+
+/* Selector con id (No recomendable porque solo se aplicaría a un elemento) */
+#title {
+    color: white;
+}
+
+/* Selector con clase. */
+.parrafo {
+    background-color: lightblue;
+}
+
+/* Selector con atributo. */
+[href] {
+    color: white;
+    margin-right: 15px;
+}
+
+/* Selector con atributo=valor. */
+[href="https://google.com"] {
+    background-color: black;
+}
+
+/* Selector con atributo^=valor */
+[href^=color] {
+    background-color: purple;
+}
+
+/* Selector con atributo*=valor */
+[href*=modo] {
+    background-color: rgb(201, 201, 15);
+}
+
+/* Selector con atributo$=valor */
+[href$=verde] {
+    background-color: green;
+}
+
+/* Selector con atributo|=valor */
+[lang|=en] {
+    background-color: blue;
+    color: white;
+}

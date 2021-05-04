@@ -15,8 +15,10 @@ También puede ver la página desde aquí: https://derekalmanza.github.io/Learni
         * Selectores elementales.
             * Selector Universal.
             * Selector de tipo o etiqueta.
-        * Selectores de id y clase.
         * Selectores de atributo.
+            * Selectores de id. 
+            * Selectores de clase.
+            * Otros atributos.
     <!-- * Selectores compuestos.
         * Selectores agrupados.
         * Selectores combinados.
