@@ -11,3 +11,13 @@ También puede ver la página desde aquí: https://derekalmanza.github.io/Learni
 * Conectar CSS con HTML.
 * Sintaxis básica.
 * Tipos de selectores.
+    * Selectores simples.
+        * Selectores elementales.
+            * Selector Universal.
+            * Selector de tipo o etiqueta.
+        * Selectores de id y clase.
+        * Selectores de atributo.
+    <!-- * Selectores compuestos.
+        * Selectores agrupados.
+        * Selectores combinados.
+        * Pseudoclases - Pseudoelementos. -->
