@@ -1,0 +1,17 @@
+/* 
+- Selectores compuestos:
+    
+    * Selectores agrupados -> selector1,
+                              selector2,
+                              selector3 {
+                                propiedad:valor;
+                              }
+    
+*/
+
+.parrafo-1,
+.parrafo-2,
+.parrafo-3,
+.parrafo-4 {
+    background-color: rgb(16, 196, 196);
+}

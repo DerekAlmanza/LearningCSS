@@ -7,8 +7,6 @@
             * Selector de tipo o etiqueta -> Nombre de la etiqueta
 
     - Selectores compuestos:
-        * Selectores agrupados.
-        * Selectores combinados.
         * Pseudoclases - Pseudoelementos.
 */
 
@@ -22,6 +20,7 @@ p {
     color: #fff;
 }
 
+/*Selector de tipo también*/
 input {
     border-radius: 10px;
 }

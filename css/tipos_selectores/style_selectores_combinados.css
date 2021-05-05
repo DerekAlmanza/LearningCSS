@@ -1,0 +1,39 @@
+/* 
+- Selectores compuestos:
+    * Selectores combinados.
+        * Selector descendiente -> selectorTipo hijo {
+                                    } 
+        * Selector de hermano siguiente -> selectorClase + hermano {
+                                            }
+        * Selector de hermanos siguientes -> selectorClase ~ hermanos {
+                                                }
+        * Selector de hijo directo -> Selecciona solo los hijos directos -> selectorClase > hijoDirectos {
+                                                                            }
+
+
+
+*/
+
+/* Selector descendiente */
+div .title-2 {
+    background-color: tan;
+}
+
+/* Selector de hermano siguiente */
+.title + p {
+    background-color: silver;
+}
+
+/* Selector de hermanos siguientes */
+.title-3 ~ p {
+    background-color: peru;
+}
+
+/* Selector de hijos directos */
+.lista > li {
+    background-color: forestgreen;
+}
+
+
+
+
