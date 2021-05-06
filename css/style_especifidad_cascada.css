@@ -1,0 +1,76 @@
+/* 
+¿Cómo funciona CSS?
+    * Especifidad -> Establece lo específico que es un selector para saber qué estilo aplicar.
+    Se calcula de la siguiente manera:
+    Sumando estos valores.
+        Etiquetas y pseudoelementos -> 001
+        Clases, atributos y pseudoclases -> 010
+        Id's ->                            100
+        Estilos en línea ->            1000
+        !important ->                 Gana a todo y no se usa.
+
+    * Cascada -> Funciona si y solo si la especifidad sobre el elemento es la misma
+    Ej. .title {
+            background-color: white;
+        }
+
+        .title {
+            background-color: blue;
+        }
+    Se quedará el blue. 
+    
+    * Herencia -> Capacidad de algunos elementos de heredar algunas propiedades de sus elementos
+    contenedores (padres, abuelos, etc.).
+        inherit: Forza herencia de una clase a otra.
+
+*/
+
+/* Este es el más específico, debido a que va sumando los valores de la especifidad. 
+Poniendo en el lugar que sea este se aplicará por tener mayor especifidad.
+*/
+h1.title#title {
+    background-color: chocolate;
+}
+
+h1 {
+    background-color: blue;
+}
+
+.title {
+    background-color: green;
+}
+
+#title {
+    background-color: yellow;
+}
+
+h1.title {
+    background-color: teal;
+}
+
+/* Propiedades como el color de letra y el tamaño de la letra se heredan. */
+.title2 {
+    color: lime;
+    font-size: 25px;
+}
+
+/* Propiedades en los enlaces no se heredan, forzando la herencia o no. */
+.parrafo {
+    color: white; /* No forzamos herencia */
+}
+
+.enlace {
+    color: inherit; /* Forzamos herencia con esto. */
+}
+
+/* Si no quieres heredar la propiedad, entonces puedes usar initial. */
+.lista {
+    color: rgb(240, 188, 58);
+}
+
+.item-extra {
+    color: initial;
+    color: palegreen;
+}
+
+

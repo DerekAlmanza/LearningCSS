@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../style_basico.css">
+    <link rel="stylesheet" href="../css/style_especifidad_cascada.css">
+    <title>Especifidad y cascada</title>
+</head>
+<body>
+    <h1 style="color: white;"> Especifidad y cascada.</h1>
+
+    <h1 id="title" class="title"> Título que se estará modificando con especifidad y cascada. </h1>
+
+    <h1 id="title2" class="title2"> Título que se modifica para explicar herencia. </h1>
+
+    <p class="parrafo">
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Quae deleniti quam at voluptatem ad 
+        aut distinctio officia labore non <a href="#" class="enlace">ENLACE DE EJEMPLO QUE HEREDA POR PONER 
+        INHERIT EN EL CSS </a> error dolores nisi nam illo perferendis voluptates reiciendis, 
+        similique excepturi alias?
+    </p>
+
+    <ul class="lista">
+        <li class="item"> Hijo 1</li>
+        <li class="item"> Hijo 2</li>
+        <li class="item"> Hijo 3</li>
+        <li class="item-extra">Hijo 4 que no hereda por poner initial en el CSS</li>
+    </ul>
+
+    <input type="button" class="botones" value="Home" onclick="location.href='../index.html'">
+</body>
+</html>
