@@ -22,6 +22,7 @@
     * Herencia -> Capacidad de algunos elementos de heredar algunas propiedades de sus elementos
     contenedores (padres, abuelos, etc.).
         inherit: Forza herencia de una clase a otra.
+        initial: Para no heredar la propiedad.
 
 */
 

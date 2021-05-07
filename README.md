@@ -23,3 +23,7 @@ También puede ver la página desde aquí: https://derekalmanza.github.io/Learni
         * Selectores agrupados.
     <!--     * Selectores combinados.
         * Pseudoclases - Pseudoelementos. -->
+* Especifidad.
+* Cascada.
+* Herencia.
+* Estilos computados.

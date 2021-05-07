@@ -1,0 +1,7 @@
+.subtitulo,
+.lista,
+.instrucciones {
+    color: white;
+    font-size: larger;
+    text-decoration: underline;
+}
