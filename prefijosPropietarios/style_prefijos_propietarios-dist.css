@@ -1,0 +1,15 @@
+/* Con uso de prepros, lo usaremos para auto prefixear nuestro CSS. */
+
+.example {
+    display: -ms-grid;
+    display: grid;
+    margin-left: 20px;
+    transition: all .5s;
+    -webkit-user-select: none;
+       -moz-user-select: none;
+        -ms-user-select: none;
+            user-select: none;
+    background: linear-gradient(to bottom, white, black);
+    border-radius: 10px;
+    color: aliceblue;
+}
