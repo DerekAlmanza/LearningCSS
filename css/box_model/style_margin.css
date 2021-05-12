@@ -12,3 +12,52 @@ Admite hasta 4 valores que van en el orden de las agujas del reloj:
     2 valores -> margin: top/bottom left/right;
     1 valor -> margin: top/right/left/bottom;
 */
+
+body {
+    margin: 0;
+}
+
+.header {
+    background-color: gray;
+    height: 50px;
+}
+
+.bloque {
+    text-align: center;
+    background-color: purple;
+    color: white;
+    width: 200px;
+    height: 200px;
+    margin: 100px;
+}
+
+#bloque1 {
+    margin: 100px; /* Margen que se aplicará a todos los lados por pasarle solo un valor. */
+}
+
+#bloque2 {
+    margin: 100px 50px; /* Margen que se aplica el primero a arriba-abajo y el otro a la izquierda-derecha. */
+}
+
+#bloque3 {
+    margin: 100px 50px 10px; /* Margen que se aplica arriba, el siguiene a izq-der y el último a abajo. */
+}
+
+#bloque4 {
+    margin: 100px 50px 10px 200px; /* Margen que se aplica cada valor a un lado en sentido de las manecillas del reloj. */
+}
+
+/* Para centrar un elemento basta con colocar los margins en auto.  */
+#bloque5 {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/* Bloques en línea solo tienen márgenes horizontales. */
+.link {
+    background-color: rgb(8, 212, 212);
+    color: black; 
+    width: 200px;
+    height: 200px;
+    margin-left: 300px;
+}
