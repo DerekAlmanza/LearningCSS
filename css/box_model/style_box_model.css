@@ -1,0 +1,12 @@
+/* 
+* Contenido: Ya sea imagen, texto o lo que sea que está contenido en la caja.
+* Border: Es el borde de la caja.
+* Margin: Propiedad que permite generar espacio entre elementos.
+* Padding: Área que se encarga de definir el espacio que habrá entre el contenido y el border.
+* Width: Ancho del border.
+* Height: Altura del border.
+*/
+
+body {
+    text-align: center;
+}

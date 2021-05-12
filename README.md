@@ -27,3 +27,9 @@ También puede ver la página desde aquí: https://derekalmanza.github.io/Learni
 * Cascada.
 * Herencia.
 * Estilos computados.
+* Prefijos propietarios.
+* Box model.
+    * Width - Height.
+    * Margin.
+    * Padding.
+    * Border.

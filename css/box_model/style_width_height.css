@@ -1,0 +1,17 @@
+/* 
+Elementos de línea solo se acoplan al tamaño del texto ingresado, no tienen medidas que podamos cambiar
+*/
+
+.bloque {
+    background-color: purple;
+    color: white;
+    width: 200px;
+    height: 200px;
+}
+
+.link {
+    background-color: rgb(8, 212, 212);
+    color: black; 
+    width: 200px;
+    height: 200px;
+}
