@@ -1,0 +1,38 @@
+/* 
+Border-radius: Propiedad que permite redondear los vpertices de la caja de forma independiente.
+Puede alterar los 4 lados de los bordes: 
+    * border-top-left-radius -> Borde superior izquierdo.
+    * border-top-right-radius -> Borde superior derecho.
+    * border-bottom-right-radius -> Borde inferior derecho.
+    * border-bottom-left-radius -> Borde inferior izquierdo.
+    * border-radius -> Altera por igual los 4 vértices.
+
+Si recibe un valor en el border-radius dibujará un círculo.
+    -> border-radius: 50px; Dibujará un círculo en cada esquina de 50px de diámetro.
+Si recibe dos valores en el border-radius dibujará un elipse.
+    -> border-radius: 50px 100px; Dibujará elipse con 50px de radio en el eje X y 100px de radio en el eje Y.
+*/
+
+.bloque {
+    background-color: purple;
+    text-align: center;
+    color: white;
+    width: 200px;
+    height: 200px;
+    margin-bottom: 15px;
+    margin-left: 50px;
+}
+
+#bloque1 {
+    border-bottom-left-radius: 50px; /*Círculo en la esquina inferior izq.*/
+    border-bottom-right-radius: 150px;
+}
+
+#bloque2 {
+    border-bottom-left-radius: 50px 100px; /*Primer valor eje X, segundo valor eje Y forma una elipse.*/
+    border-bottom-right-radius: 150px 50px;
+}
+
+#bloque3 {
+    border-radius: 50px / 100px; /* Aplica elipse en todas las esquinas.*/
+}

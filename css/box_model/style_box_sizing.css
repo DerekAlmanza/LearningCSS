@@ -1,0 +1,27 @@
+/* 
+Box sizing: Propiedad que permite controlar el cálculo que hace el navegador al modificar 
+el content, padding y border.
+Los 2 valores que podemos dar son:
+    * content-box: Valor por defecto.
+    * border-box: Cálculo del tamaño del elemento incluyendo el padding y border. 
+*/
+
+.bloque {
+    background-color: purple;
+    text-align: center;
+    color: white;
+    width: 200px;
+    height: 200px;
+    padding: 20px;
+    margin-bottom: 15px;
+    margin-left: 50px;
+}
+
+#bloque1 {
+    box-sizing: content-box;
+}
+
+#bloque2 {
+    border: 5px solid lightseagreen;
+    box-sizing: border-box;
+}

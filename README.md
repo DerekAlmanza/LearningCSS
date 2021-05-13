@@ -33,3 +33,4 @@ También puede ver la página desde aquí: https://derekalmanza.github.io/Learni
     * Margin.
     * Padding.
     * Border.
+    * Box sizing.
