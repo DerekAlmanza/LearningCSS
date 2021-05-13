@@ -1,0 +1,58 @@
+/* 
+Padding: Propiedad que permite generar espacio interno entre el borde y la caja.
+Puedes modificar los 4 lados posibles del padding:
+    * padding-top
+    * padding-bottom
+    * padding-right
+    * padding-left
+
+Admite hasta 4 valores que van en el orden de las agujas del reloj:
+    4 valores -> padding: top right bottom left;
+    3 valores -> padding: top left/right bottom;
+    2 valores -> padding: top/bottom left/right;
+    1 valor -> padding: top/right/left/bottom;
+*/
+
+.bloque {
+    background-color: purple;
+    color: white;
+    width: 200px;
+    height: 200px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.link {
+    background-color: rgb(8, 212, 212);
+    color: black; 
+    width: 200px;
+    height: 200px;
+}
+
+#linkMargin {
+    margin-left: 300px;
+}
+
+/* En el caso del padding sí se puede hacer uso de padding-top y padding-bottom en elementos de línea. */
+#linkPadding {
+    padding-left: 300px;
+    padding-bottom: 100px;
+}
+
+.botonCaja {
+    background-color: steelblue;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    margin-top: 130px;
+}
+
+.boton {
+    color: aliceblue;
+    font-size: larger;
+    cursor: pointer;
+    margin-left: 300px;  
+    padding: 40px 200px;
+    border-radius: 25px;
+    border-color: blue;
+    background-color: rgb(0, 81, 255);
+}
