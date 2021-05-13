@@ -1,0 +1,89 @@
+/* 
+Border: Propiedad que permite modificafr el borde de la caja.
+Agrupa 3 propiedades:
+
+    * border-width: Ancho del borde.
+        *  border-top-width
+        * border-right-width
+        * border-bottom-width
+        * border-left-width
+
+    * border-style: Estilo del borde.
+        * border-top-style
+        * border-right-style
+        * border-bottom-style
+        * border-left-style
+        Listado de valores de estilo:
+            * none
+            * hidden
+            * dotted
+            * dashed
+            * solid
+            * double
+            * groove
+            * ridge
+            * inset
+            * outset
+
+    * border-color: Color del borde.
+        *  border-top-color
+        * border-right-color
+        * border-bottom-color
+        * border-left-color
+*/
+
+
+.bloque {
+    background-color: purple;
+    text-align: center;
+    color: white;
+    width: 200px;
+    height: 200px;
+    margin-bottom: 15px;
+    margin-left: 50px;
+}
+
+#bloque1 {
+    border: 10px solid black; /* Aquí engloba el width, estilo y color. */
+    border-left: 5px solid yellow;
+    border-right: 5px solid yellow;
+}
+
+#bloque2 {
+    border: 20px double black; /* Aquí engloba el width, estilo y color. */
+    border-left: 15px double yellow;
+    border-right: 15px double yellow;
+}
+
+#bloque3 {
+    border: 20px groove aqua; /* Aquí engloba el width, estilo y color. */
+    border-left: 15px groove yellow;
+    border-right: 15px groove yellow;
+}
+
+#bloque4 {
+    border: 20px ridge aqua; /* Aquí engloba el width, estilo y color. */
+    border-left: 15px ridge yellow;
+    border-right: 15px ridge yellow;
+}
+
+#bloque5 {
+    border: 20px inset mediumseagreen; /* Aquí engloba el width, estilo y color. */
+    border-left: 15px inset mediumseagreen;
+    border-right: 15px inset mediumseagreen;
+}
+
+#bloque6 {
+    border: 20px outset mediumseagreen; /* Aquí engloba el width, estilo y color. */
+    border-left: 15px outset mediumseagreen;
+    border-right: 15px outset mediumseagreen;
+}
+
+/* Sí funciona para los elementos de línea. */
+.link {
+    background-color: rgb(8, 212, 212);
+    color: black; 
+    width: 200px;
+    height: 200px;
+    border: 6px solid black; /* Aquí engloba el width, estilo y color. */
+}
