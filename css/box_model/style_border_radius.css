@@ -36,3 +36,16 @@ Si recibe dos valores en el border-radius dibujará un elipse.
 #bloque3 {
     border-radius: 50px / 100px; /* Aplica elipse en todas las esquinas.*/
 }
+
+#bloque4 {
+    border-top-left-radius: 50px; /*Círculo en la esquina inferior izq.*/
+    border-top-right-radius: 150px;
+    border-bottom-left-radius: 50px; /*Círculo en la esquina inferior izq.*/
+    border-bottom-right-radius: 150px;
+    overflow: auto;
+}
+
+.parrafo {
+    padding: 25px;
+    margin: 0;
+}
