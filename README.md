@@ -35,3 +35,4 @@ También puede ver la página desde aquí: https://derekalmanza.github.io/Learni
     * Border.
     * Box sizing.
 * Overflow.
+* Colapsado de márgenes.
