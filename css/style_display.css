@@ -1,0 +1,41 @@
+/* 
+Display: Propiedad que cambia el contexto de los elementos dentro del navegador.
+Admite los siguientes valores: 
+    * none -> Provoca que el elemento no se muestre.
+    * block -> Provoca que el elemento sea de bloque.
+    * inline -> Hace que el elemento sea de línea.
+    * inline-block -> El elemento es de línea pero admite medidas y márgenes verticales.
+*/
+
+.parrafo {
+    background-color: rgb(43, 112, 114);
+    color: white;
+}
+
+#parrafo1 {
+    display: none; /* No se mostrará sin embargo se estará cargando en la página. */
+}
+
+#parrafo2 {
+    display: inline;
+}
+
+.link {
+    background-color: rgb(128, 21, 199);
+    color: white;
+}
+
+#link1 {
+    display: block;
+    margin-top: 20px;
+    margin-right: auto;
+    margin-left: auto;
+    text-align: center;
+    width: 300px;
+}
+
+#link2 {
+    display: inline-block;
+    
+}
+

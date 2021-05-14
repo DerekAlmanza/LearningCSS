@@ -36,3 +36,4 @@ También puede ver la página desde aquí: https://derekalmanza.github.io/Learni
     * Box sizing.
 * Overflow.
 * Colapsado de márgenes.
+* Display.
