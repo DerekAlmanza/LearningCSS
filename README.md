@@ -38,3 +38,4 @@ También puede ver la página desde aquí: https://derekalmanza.github.io/Learni
 * Colapsado de márgenes.
 * Display.
 * Outline.
+* Text align.

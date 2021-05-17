@@ -1,0 +1,58 @@
+/* 
+Text-align: Propiedad que permite alinear horizontalmente los elementos si y solo si el ancho no está
+declarado.
+Acepta 4 valores distintos: 
+    *text-align:left; Alinea el contenido a la izquierda. En un párrafo por defecto está en left.
+    *text-align:right; Alinea el contenido a la derecha.
+    *text-align:center; Centra el contenido.
+    *text-align:justify; Alinea el contenido de forma justificada. No se recomienda usarlo.
+*/
+
+#parrafo-1,
+#parrafo-2,
+#parrafo-3,
+#parrafo-4 {
+    color: white;
+}
+
+#parrafo-2 {
+    text-align: right;
+}
+
+#parrafo-3 {
+    text-align: center;
+}
+
+#parrafo-4 {
+    text-align: justify;
+}
+
+.border {
+    background-color: gray;
+    color: white;
+    border: 5px solid lightgreen;
+    width: 150px;
+    margin-left: 15px;
+    margin-bottom: 20px;
+    padding: 25px 0;
+    text-align: center;
+}
+
+.link {
+    color: lightblue;
+    text-align: center;
+    display: block; /*inline-block no sirve.*/
+    margin-right: 40px;
+    margin-bottom: 50px;
+}
+
+.imagen { /* Aquí no sirve text-align, forzosamente se tiene que usar margin-left y margin-right en auto.*/
+    width: 450px;
+    height: 350px;
+    display: block;
+    margin: 15px auto 55px;
+}
+
+.img-container {
+    text-align: center;
+}
