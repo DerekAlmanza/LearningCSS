@@ -1,0 +1,37 @@
+/* 
+Position: Propiedad que permite posicionar elementos. Algunos conceptos previos que se deben conocer son: 
+
+    * Flujo de renderizado -> Es la norma general en la que se ordenan los elementos, la cuál será que el 
+                             punto 0,0 será en la esq. superior izquierda, y los elementos se ordenan de izq.
+                             a der. y de arriba a abajo.
+    * Espacio reservado -> Espacio que tiene asignado un elemento en el navegador.
+    * Elemento posicionado -> Elemento que ya cuenta con la propiedad position distinta a 'static'. 
+    * Stacking context -> Contexto de apilamiento. Es el orden en el que se apilan las cajas dentro del mismo
+                          contenedor.
+
+Al posicionar un elemento se desvloquean 5 propiedades que podemos utilizar para mover los elementos en los
+3 ejes.
+
+    * top -> El elemento se moverá desde la parte superior la distancia que nosotros le hayamos asignado.
+    * right -> El elemento se moverá desde la parte derecha la distancia que le asignamos.
+    * bottom -> El elemento se moverá desde la parte inferior la distancia que le asignamos.
+    * left -> El elemento se moverá desde la parte izquierda la distancia que le asignamos.
+    * z-index -> Permite mover el elemento en el contexto de apilamiento (eje z).
+
+Nota: Si a un elemento le declaramos la propiedad top y/o left, las propiedades bottom y/o right no funcionarán.
+
+Los posibles valores que le podemos dar a position son: 
+
+    * static -> Valor por defecto del elemento, con este valor el elemento no se puede mover debido a que no
+                está posicionado
+    * relative -> El elemento mantendrá su posición y medidas en el flujo de renderizado, si lo movemos usará
+                  como referencia su posición en el html.
+    * absolute -> El elemento pierde sus medidas y su espacio reservado, si lo movemos usará al elemento padre
+                  como referencia, en otro caso, usará el elemento html como referencia. 
+    * fixed -> El elemento pierde sus medidas y su espacio reservado, si lo movemos usará el elemento html como
+               referencia, y además se quedará fijo en esa posición aunque hagamos scroll.
+*/
+
+body {
+    text-align: center;
+}

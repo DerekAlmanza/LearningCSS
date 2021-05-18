@@ -40,3 +40,10 @@ También puede ver la página desde aquí: https://derekalmanza.github.io/Learni
 * Outline.
 * Text align.
 * Box shadow.
+* Position.
+    * Position relative.
+    * Position absolute.
+    * Position fixed.
+    * Position sticky.
+    * Z - index.
+    * Stacking context.
