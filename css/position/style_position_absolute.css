@@ -1,0 +1,42 @@
+/* NOTA: Con elementos de línea, si pones position absolute se volverán elementos de bloque
+por defecto. */
+
+.caja-1,
+.caja-2,
+.caja-3 {
+    color: white;
+    font-size: large;
+    font-weight: bold;
+    text-align: center;
+    width: 100px;
+    height: 100px;
+}
+
+.container {
+    width: 200px;
+    height: 200px;
+    background-color: peru;
+    position: relative; /* el container debe de estar posicionado para que sea tomado como referencia. */
+    left: 100px;
+}
+
+.caja-1 {
+    background-color: lightsteelblue;
+    position: absolute;
+    bottom: 100px;
+    left: 100px;
+}
+
+.caja-2 {
+    background-color: darkcyan;
+    position: absolute;
+    top: 300px;
+    left: 100px;
+}
+
+.caja-3 {
+    background-color: forestgreen;
+    position: absolute;
+    bottom: 0;
+    right: 0; /* Su posición se basa en el html, ya que no tiene un elemento padre del cual guiarse. */
+}
