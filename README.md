@@ -45,5 +45,5 @@ También puede ver la página desde aquí: https://derekalmanza.github.io/Learni
     * Position absolute.
     * Position fixed.
     * Position sticky.
-    * Z - index.
-    * Stacking context.
+* Z - index.
+* Stacking context.
