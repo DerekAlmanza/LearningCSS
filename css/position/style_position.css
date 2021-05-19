@@ -30,6 +30,10 @@ Los posibles valores que le podemos dar a position son:
                   como referencia, en otro caso, usará el elemento html como referencia. 
     * fixed -> El elemento pierde sus medidas y su espacio reservado, si lo movemos usará el elemento html como
                referencia, y además se quedará fijo en esa posición aunque hagamos scroll.
+
+    * sticky -> Mezcla entre relative y fixed. Con este tipo de position, las propiedades top, right, buttom,
+                left no sirven para mover el elemento, sino para indicar a partir de qué punto adoptará el 
+                comportamiento, hasta llegar a ese punto se comportará como fixed.
 */
 
 body {
