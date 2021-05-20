@@ -47,3 +47,4 @@ También puede ver la página desde aquí: https://derekalmanza.github.io/Learni
     * Position sticky.
 * Z - index.
 * Stacking context.
+* Ordenar propiedades.

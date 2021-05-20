@@ -1,0 +1,30 @@
+/* 
+
+No existen normas específicas sobre cómo ordenar las propiedades, pero más o menos se coincide en lo mismo.
+1 - Propiedades de posicionamiento.
+2 - Propiedades del box model.
+3 - Propiedades de texto.
+4 - Propiedades visuales (colores, background, etc...)
+5 - Lo demás
+
+*/
+
+.container {
+    /* Propiedades del box model. */
+    margin: 100px auto;
+    padding: 15px;
+    width: 500px;
+
+    /* Propiedades de texto. */
+    font-weight: bold;
+    text-align: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+    /* Propiedades visuales. */
+    color: white;
+    background-color: darkcyan;
+
+    /* Lo demás. */
+    border-radius: 15px;
+    box-shadow: 10px 10px 15px 0 black;
+}
