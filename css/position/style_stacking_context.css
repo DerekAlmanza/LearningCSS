@@ -1,0 +1,54 @@
+/* 
+Stacking context: Es el espacio donde los elementos se van apilando para que unos elementos queden
+                  adelante y otros atrás.
+
+El orden del stacking context es de adelante a atrás con:
+    * Elementos posicionados con un z-index de 1 o más.
+    * Elementos posicionados sin un z-index declarado.
+    * Elementos no posicionados.
+    * Elementos con z-index negativo.
+
+Cuando se pone la propiedad opacity, el stacking context del elemento con opacity quedará atrás aún con
+un z-index.
+*/
+
+.caja {
+    color: white;
+    text-align: center;
+    width: 100px;
+    padding: 50px 0;
+}
+
+.caja-1 {
+    background-color: darkcyan;
+    position: relative;
+}
+
+.container {
+    width: 300px;
+    margin-top: -50px;
+}
+
+.seccion {
+    margin: 0;
+    background-color: cyan;
+    position: relative;
+    opacity: 0.75;
+}
+
+.parrafo {
+    margin: 0;
+    color: white;
+    background-color: darkmagenta;
+    margin-top: -30px;
+}
+
+.caja-2 {
+    background-color: darkgoldenrod;
+    margin-top: -50px;
+    position: relative; /*Con esta posición, la caja ya no queda entre el container y el texto. */
+}
+
+.caja-3 {
+    background-color: darkslategray;
+}
