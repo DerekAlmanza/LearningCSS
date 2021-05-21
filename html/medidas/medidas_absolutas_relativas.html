@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../../style_basico.css">
+    <link rel="stylesheet" href="../../css/medidas/style_medidas_absolutas_relativas.css">
+    <title> Medidas absolutas y relativas </title>
+</head>
+<body>
+    <h1 style="color: white;"> Medidas absolutas y relativas.</h1>
+
+    <input type="button" class="botones" value="Home" onclick="location.href='../../index.html'">
+    
+    <div class="container">
+        <div id="container-1">
+            <p class="parrafo">
+                Medidas absolutas: Aquellas que NO CAMBIAN y mantendrán su tamaño sin importar el dispositivo o interacción
+                       del usuario.
+                Las principales medidas absolutas son: 
+                <ul>
+                    <li> px (pixeles) -> 1/96 1in. </li>
+                    <li> cm (centímetros) -> 1cm = 96px/2.54.</li>
+                    <li> mm (milímetros). </li>
+                    <li> Q (cuarto de milímetro) -> 1Q = 1/40 de 1cm.</li>
+                    <li> in (inches, pulgadas)-> 1in = 2.54 = 96px.</li>
+                    <li> pc (picas) -> 1pc = 1/16 de 1in.</li>
+                    <li> pt (puntos) -> 1pt = 1/72 de 1in.</li>
+                </ul>
+            </p>
+        </div>
+
+        <div id="container-2" >
+            <p class="parrafo">
+                Medidas relativas: SIEMPRE depende de un contexto, son aquellas medidas recomendables ya que permite que los
+                       elementos escalen proporcionalmente.
+                Las principales medidas relativas son:  
+                <ul>
+                    <li> em. </li>
+                    <li> rem. </li>
+                    <li> %. </li>
+                    <li> vw. </li>
+                    <li> vh. </li>
+                    <li> vmin. </li>
+                    <li> vmax. </li>
+                    <li> ex -> Altura x de la fuente del elemento. </li>
+                    <li> ch -> Ancho del glifo "0" de la letra del elemento. </li>
+                    <li> lh -> Altura de la línea del elemento. </li>
+                </ul>
+            </p>
+        </div>
+    </div>
+
+    <div>
+        <input type="button" class="botones" value="Em vs. Rem" 
+        onclick="location.href='./em_rem.html'">
+    </div>
+
+    
+</body>
+</html>

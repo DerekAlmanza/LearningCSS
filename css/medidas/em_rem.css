@@ -1,0 +1,28 @@
+/* 
+rem -> Corresponde a la medida de la "m" de la raíz del documento (html).
+em -> Corresponde a la medida de la "m" del contexto donde estemos.
+
+Entonces tanto rem como em se modifican en base al tamaño de la fuente.
+
+1rem = 16px
+
+El estándar del tamaño de la fuente por defecto de la raíz es de 16px y no es recomendable cambiarlo.
+
+* Si la medida que establecemos tiene que crecer proporcionalmente al tamaño del texto, usar em.
+* Si la medida tiene que ser siempre la misma y relativa al tamaño de fuente de la raíz, usar rem.
+*/
+
+.subtitulo {
+    margin-bottom: 50px;
+    text-align: center;
+    font-size: 1.3rem;
+    color: white;
+}
+
+.link {
+    padding: 1em 2em;
+    font-size: 2rem;
+    background-color: lightblue;
+    color: black;
+    border-radius: .5em;
+}

@@ -1,0 +1,60 @@
+/* 
+Medidas absolutas: Aquellas que NO CAMBIAN y mantendrán su tamaño sin importar el dispositivo o interacción
+                   del usuario.
+Las principales medidas absolutas son: 
+    * px (pixeles) -> 1/96 1in
+    * cm (centímetros) -> 1cm = 96px/2.54
+    * mm (milímetros) 
+    * Q (cuarto de milímetro) -> 1Q = 1/40 de 1cm
+    * in (inches, pulgadas)-> 1in = 2.54 = 96px
+    * pc (picas) -> 1pc = 1/16 de 1in
+    * pt (puntos) -> 1pt = 1/72 de 1in
+
+Medidas relativas: SIEMPRE depende de un contexto, son aquellas medidas recomendables ya que permite que los
+                   elementos escalen proporcionalmente.
+Las principales medidas relativas son: 
+    * em
+    * rem
+    * %
+    * vw
+    * vh 
+    * vmin
+    * vmax
+    * ex -> Altura x de la fuente del elemento.
+    * ch -> Ancho del glifo "0" de la letra del elemento.
+    * lh -> Altura de la línea del elemento.
+
+*/
+
+body {
+    text-align: center;
+}
+.container {
+    /* Propiedades de posicionamiento. */
+    display: flex
+    ;
+    /* Propiedades del box model. */
+    margin: 0 150px 50px;
+    padding: 15px;
+    width: auto;
+
+    /* Propiedades de texto. */
+    font-weight: bold;
+    text-align: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+    /* Propiedades visuales. */
+    color: white;
+    background-color: darkcyan;
+
+    /* Lo demás. */
+    border-radius: 15px;
+    box-shadow: 10px 10px 15px 0 black;
+}
+
+#container-1 {
+    width: 500px;
+}
+#container-2 {
+    width: 500px;
+}

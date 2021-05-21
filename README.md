@@ -48,3 +48,5 @@ También puede ver la página desde aquí: https://derekalmanza.github.io/Learni
 * Z - index.
 * Stacking context.
 * Ordenar propiedades.
+* Medidas absolutas y relativas.
+    * em y rem.
