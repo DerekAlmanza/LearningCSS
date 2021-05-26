@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../../style_basico.css">
+    <link rel="stylesheet" href="../../css/medidas/style_width_percent_auto.css">
+    <title>Width % vs. auto </title>
+</head>
+<body>
+    
+    <h1 style="color: white;"> Width % vs. auto. </h1>
+
+    <div class="caja">
+        <div id="caja-hijo-1"></div>
+    </div>
+
+    <div class="container">
+        <div>
+            <div class="caja">
+                <div id="caja-hijo-2"> Se sale porque sigue manteniendo sus medidas. </div>
+            </div>
+        </div>
+        <div>
+            <div class="caja">
+                <div id="caja-hijo-3"> En esos casos es mejor poner margin auto. </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="caja-alargada">
+        <div id="caja-hijo-3"> Queremos evitar el scroll horizontal que se hace ahí. </div>
+    </div>
+
+    <div class="caja-alargada-bien">
+        <div id="caja-hijo-3"> En esos casos es mejor poner margin auto en el div verde. </div>
+    </div>
+
+    <input type="button" class="botones" value="Regresar a medidas absolutas y relativas." 
+    onclick="location.href='./medidas_absolutas_relativas.html'">
+</body>
+</html>

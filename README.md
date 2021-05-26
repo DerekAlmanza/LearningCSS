@@ -50,3 +50,4 @@ También puede ver la página desde aquí: https://derekalmanza.github.io/Learni
 * Ordenar propiedades.
 * Medidas absolutas y relativas.
     * em y rem.
+    * width % y width auto.
