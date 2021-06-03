@@ -27,15 +27,6 @@ Recomendable usar width % para responsive design, pero hay que tener cuidado cua
 .container {
     display: flex;
 }
-/* .caja-posicionada {
-    position: absolute;
-    left: 300px;
-    bottom: 80px;
-    width: 200px;
-    height: 200px;
-    background-color: lightgreen;
-    margin-bottom: 50px;
-} */
 
 .caja-alargada {
     width: 100%;

@@ -51,3 +51,4 @@ También puede ver la página desde aquí: https://derekalmanza.github.io/Learni
 * Medidas absolutas y relativas.
     * em y rem.
     * width % y width auto.
+    * height % y height auto.
