@@ -1,0 +1,39 @@
+/* 
+Viewport: Es el área útil donde se mostrará la página de internet. 
+NOTA. Es el área visible sin hacer scroll.
+Las medidas del viewport pueden ser: 
+    * vw -> Viewport width, el ancho del viewport.
+    * vh -> Viewport height, el alto del viewport.
+    * vmax -> Utiliza el valor más grande tanto del alto como del ancho del viewport.
+    * vmin -> Utiliza el valor más pequeño tanto del alto como del ancho del viewport.
+
+    1vw = 1% del ancho del viewport.
+    1vh = 1% del alto del viewport.
+    1vmin = 1% del valor que sea el más pequeño del viewport.
+    1vmax = 1% del valor que sea el más grande del viewport.
+*/
+
+
+.header {
+    overflow: auto;
+    background-color: gray;
+    text-align: center;
+    width: 100%; /*En caso de querer el ancho del 100%, es más recomendable el 100% a 100vw porque sino te aparece un slider horizontal. */
+    /* height: 100vh;*/ /*Esta línea hace que el alto del viewport se reproduzca al 100%*/
+}
+
+.caja-1 {
+    width: 300px; 
+    height: 300px;
+    background-color: blue;
+}
+
+.caja-hijo {
+    width: 50%; /*Es mejor usar el % en este caso debido a que el tamaño es respecto a la caja padre, no al viewport.*/
+    /* width: 50vw;  */
+    height: 150px;
+    background-color: yellowgreen;
+}
+.parrafo {
+    color: aqua;
+}
