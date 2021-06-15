@@ -1,0 +1,35 @@
+/*
+Limitadores de ancho y alto: Si queremos establecer un width y height con medidas relativas, lo más probable
+es que queramos mantener esa medida en todos los casos, para eso están: 
+    * min-width -> Indica el ancho mínimo que puede alcanzar el elemento.
+    * max-width -> Indica el ancho máximo que puede alcanzar el elemento.
+    * min-height -> Indica el alto mínimo que puede alcanzar el elemento.
+    * max-height -> Indica el alto máximo que puede alcanzar el elemento.
+*/
+
+.header {
+    overflow: auto;
+    background-color: gray;
+    text-align: center;
+    width: 100%; /*En caso de querer el ancho del 100%, es más recomendable el 100% a 100vw porque sino te aparece un slider horizontal. */
+    /* height: 100vh;*/ /*Esta línea hace que el alto del viewport se reproduzca al 100%*/
+}
+
+.caja-1 {
+    width: 100%;
+    min-width: 500px;
+    max-width: 700px;
+    height: 200px;
+    margin-bottom: 20px;
+    background-color: rgb(56, 179, 56);
+}
+
+.caja-2 {
+    width: 100%;
+    min-height: 300px;
+    max-height: 400px;
+    height: 50vw;
+    margin-bottom: 20px;
+    background-color: rgb(56, 144, 179);
+}
+
