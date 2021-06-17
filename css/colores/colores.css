@@ -1,0 +1,23 @@
+body {
+    text-align: center;
+}
+
+.caja {
+    
+    margin: 0 150px 50px;
+    padding: 15px;
+    width: auto;
+
+    /* Propiedades de texto. */
+    font-weight: bold;
+    text-align: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+    /* Propiedades visuales. */
+    color: white;
+    background-color: darkcyan;
+
+    /* Lo demás. */
+    border-radius: 15px;
+    box-shadow: 10px 10px 15px 0 black;
+}

@@ -1,0 +1,29 @@
+#caja-1 {
+    margin-left: auto;
+    margin-right: auto;
+    width: 300px;
+    margin-bottom: 20px;
+    border-left: 100px solid blue;
+    border-top: 100px solid green;
+    border-bottom: 100px solid yellow;
+}
+
+#caja-2 {
+    margin-left: auto;
+    margin-right: auto;
+    width: 300px;
+    margin-bottom: 20px;
+    border-right: 100px solid rgb(77, 145, 21);
+    border-top: 100px solid rgb(142, 12, 228);
+    border-bottom: 100px solid rgb(73, 52, 53);
+}
+
+#caja-3 {
+    margin-left: auto;
+    margin-right: auto;
+    width: 100px;
+    margin-bottom: 20px;
+    border-top: 400px solid rgb(24, 199, 161);
+    border-left: 250px solid rgb(142, 12, 228);
+    border-right: 250px solid rgb(73, 52, 53);
+}

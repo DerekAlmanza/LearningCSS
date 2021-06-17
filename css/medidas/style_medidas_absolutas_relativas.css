@@ -31,8 +31,8 @@ body {
 }
 .container {
     /* Propiedades de posicionamiento. */
-    display: flex
-    ;
+    display: flex;
+    
     /* Propiedades del box model. */
     margin: 0 150px 50px;
     padding: 15px;

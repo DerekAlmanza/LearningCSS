@@ -1,0 +1,44 @@
+/* 
+Current color: Es una palabra clave que se puede usar en lugar de cualquier valor de color y usará el 
+            valor ya sea establecido o heredado en la propiedad color.
+            Por defecto, el currentColor es negro. 
+*/
+
+body {
+    background-color: rgb(224, 30, 65);
+    color: gray;
+}
+
+.caja-1 {
+    width: 50%;
+    background-color: currentColor; /* Está heredando el color del body. Inherit hereda el background color, no el color.*/
+}
+
+.caja-hija-1 {
+    width: 200px;
+    height: 200px;
+    margin-bottom: 20px;
+    background-color: aqua;
+    border-color: 4px solid currentColor;
+}
+
+.caja-2 {
+    width: 50%;
+    background-color: lightslategray;
+    color: purple;
+}
+
+.caja-hija-2 {
+    width: 200px;
+    height: 200px;
+    margin-bottom: 20px;
+    background-color: rgb(166, 255, 0);
+    border: 6px solid currentColor; /* Hereda del color padre más cercano. */
+}
+
+.botones {
+    margin-bottom: 15px;
+    border-radius: 10px;
+    border-color: antiquewhite;
+    cursor: pointer;
+}
