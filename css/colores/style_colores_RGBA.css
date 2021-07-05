@@ -1,0 +1,30 @@
+/*
+En el modo RGB tenemos tres canales (red, green, blue) y tenemos 8 bits de color por canal, i.e, valores
+de 0 a 255.
+Esto da un total de 256 * 256 * 256 = 16,581,375.
+La sintaxis es: rgb(R,G,B)
+Para movernos por la escala de grises debemos de poner los 3 canales con el mismo valor, si ponemos los 
+3 canales en 128 tendremos el gris puro. 
+
+El modo RGBA da la opción de utilizar un cuarto canal que corresponda al canal alpha, i.e, la transparencia.
+Su valor va del 0 al 1. 
+Su sintaxis es:
+    * rgba( R, G, B, A)
+*/
+
+.caja-1 {
+    margin-bottom: 15px;
+    margin-left: 15px;
+    width: 225px;
+    height: 225px;
+    background-color: rgb(189, 178, 56);
+}
+
+.caja-2 {
+    margin-left: 15px;
+    width: 75px;
+    padding: 75px;
+    text-align: center;
+    background-color: lightcoral;
+    box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.5);
+}
