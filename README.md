@@ -6,6 +6,13 @@ Clone el repositorio y ejecute index.html de la carpeta, ahí tendrá un menú s
 
 También puede ver la página desde aquí: https://derekalmanza.github.io/LearningCSS/
 
+### Notas
+Consejos para paletas de colores:
+* BrandColors.
+* htmlcolorcodes.
+* color hunt.
+* adobe color.
+
 ### Contenido:
 
 * Conectar CSS con HTML.
@@ -56,3 +63,6 @@ También puede ver la página desde aquí: https://derekalmanza.github.io/Learni
     * Min-Max width-height.
 * Colores.
     * Current color.
+    * RGBA color.
+    * Hexadecimal color.
+    * HSLA color.

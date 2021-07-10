@@ -12,8 +12,11 @@ Su sintaxis es:
     * rgba( R, G, B, A)
 */
 
+div {
+    margin-bottom: 20px;
+}
+
 .caja-1 {
-    margin-bottom: 15px;
     margin-left: 15px;
     width: 225px;
     height: 225px;
