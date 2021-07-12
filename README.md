@@ -66,3 +66,6 @@ Consejos para paletas de colores:
     * RGBA color.
     * Hexadecimal color.
     * HSLA color.
+* Tipografías.
+    * Font-family.
+    * Google fonts.

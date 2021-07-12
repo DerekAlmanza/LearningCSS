@@ -1,0 +1,50 @@
+/*
+La tipografía es la ciencia que estudia el diseño y uso de los tipos de letra.
+Las fuentes son tipos específicas de letra.
+
+Glifos -> Cada dibujo que representa cada símbolo de la fuente, incluidos los espacios.
+
+Estilo de fuente -> Modificaciones que se hacen a la fuente, como el grosor o la inclinación.
+
+Familia tipográfica -> Diferentes fuentes que peretencen a una fuente base.
+
+Propiedades: 
+    * text -> Afectamos al bloque completo.
+    * font -> Afectamos a la fuente del texto.
+
+Fuentes predeterminadas -> Son las fuentes que se consideran seguras ya que son genéricas y no establecen
+una familia tipográfica, sino un estilo de fuente: 
+    * serif -> Fuentes que tienen serifas.
+    * sans-serif -> Fuentes sin serifas.
+    * monospace -> Fuentes que tienen el mismo espaciado entre todos sus caracteres.
+    * cursive -> Fuentes que pretenden emular un escrito a mano fluido.
+    * fantasy -> Fuentes que suelen ser decorativas.
+*/
+
+body {
+    text-align: center;
+}
+
+p {
+    color: white;
+}
+
+.parrafo-1 {
+    font-family: serif; /* Prácticamente igual */
+}
+
+.parrafo-2 {
+    font-family: sans-serif; /* Sin serifas, ideal para textos largos de lectura. */
+}
+
+.parrafo-3 {
+    font-family: monospace;
+}
+
+.parrafo-4 {
+    font-family: cursive; /* Esto puede funcionar o no dependiendo del sistema operativo, ya que jala el tipo de fuente por defecto. */
+}
+
+.parrafo-5 {
+    font-family: fantasy; /* Esto puede funcionar o no dependiendo del sistema operativo, ya que jala el tipo de fuente por defecto. */
+}

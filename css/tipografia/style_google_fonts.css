@@ -1,0 +1,7 @@
+p {
+    color: white;
+}
+
+.parrafo {
+    font-family: 'Otomanopee One', sans-serif; /*Si llega a fallar la primera fuente, sans-serif es la de respaldo. */
+}
