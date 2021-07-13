@@ -1,0 +1,57 @@
+/*
+Transformaciones de texto.
+
+    - text-transform: Propiedad que nos permite realizar transformaciones estéticas (no modifica el html) al texto.
+
+        Valores: 
+            * none: No se aplicará ninguna transformación.
+            * uppercase: El texto se pone en mayúsculas.
+            * lowercase: El texto se pone en minúsculas. 
+            * capitalize: Transforma la primer letra de cada palabra en en mayúscula.
+    
+Adornos en el texto.
+
+    - text-decoration: Controla la línea que se puede poner en el texto.
+
+        Valores: 
+            * none: ELimina cualquier línea.
+            * underline: Coloca línea debajo del texto.
+            * overline: Coloca línea sobre del texto.
+            * line-through: Línea tachando el texto.
+
+    - text-shadow: Trabaja igual que box-shadow, solo que no acepta el valor inset ni la expansipon de la sombra.
+        
+        Valores: 
+            * offsetX: Desplazamiento horizontal. 
+            * offsetY: Desplazamiento vertical. 
+            * blur: Desenfoque.
+            * color: Color, que por defecto lo toma del texto.
+*/
+
+body {
+    margin-left: 5px;
+}
+h3, p {
+    color: white;
+}
+
+.parrafo-capitalize {
+    text-transform: capitalize;
+}
+
+.parrafo-none {
+    text-decoration: none;
+    color: aqua;
+}
+
+.parrafo-shadow {
+    font-size: large;
+    color: white;
+    text-shadow: -3px -3px royalblue;
+}
+
+.parrafo-shadow-blur {
+    font-size: large;
+    color: white;
+    text-shadow: 10px 10px 1px;
+}
