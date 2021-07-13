@@ -1,0 +1,28 @@
+/*
+Google Icons. 
+    Material Icons
+        https://fonts.googleapis.com/css?family=Material+Icons
+    Material Icons outlined
+        https://fonts.googleapis.com/css?family=Material+Icons+Outlined
+    Material Icons Two tone    
+        https://fonts.googleapis.com/css?family=Material+Icons+Two+Tone
+    Material Icons Rounded
+        https://fonts.googleapis.com/css?family=Material+Icons+Round
+    Material Icons Sharp
+        https://fonts.googleapis.com/css?family=Material+Icons+Sharp
+
+*/
+
+p {
+    color: white;
+}
+
+.icono {
+    font-size: 3rem;
+    color: aqua;
+}
+
+.enchufe {
+    width: 50px;
+    height: 50px; /** Se modificó el color del ícono desde el svg */
+}

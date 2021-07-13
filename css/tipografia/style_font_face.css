@@ -1,0 +1,29 @@
+/*
+Formatos para fuentes:
+    * True Type Font (TTF) -> Fue el primer formato estándar.
+    * Open True Type Font (OTF) -> Faiclita o implementa la creación de curvas.
+    * Web Open Font Format (WOFF) (WOFF2) -> Formato ligero que mejora el rendimiento funcionando a través
+                                    de metadatos. WOFF tiene soporte total y WOFF2 no lo soporta Internet Explorer.
+    * Scalable Vector Graphics (SVG) -> Para efectos y animaciones sobre el texto. No recomendable como texto genérico.
+    * Embedded Open Type (EOT) ->  Formato comprimido que fue rechazado. Solo tiene soporte con Internet Explorer.
+
+Font-Face -> Es la forma con la que descargamos fuentes de letras que no necesariamente vienen de un servidor
+            remoto como Google Fonts. 
+
+La sintaxis es: 
+@font-face {
+    font-family: Nombre de familia;
+    src: local() -> Se coloca el nombre de la fuente para buscarla en el ordenador del usuario y así no descargarla.
+         url() -> Sino encontramos la fuente, la descargamos.
+         format() -> Ponemos un tipo de formato específico, si no se pone, toma el primer formato soportado.
+}
+*/
+
+@font-face {
+    font-family: 'fuentecita';
+    src: local('Dark Mage'), url('../../fonts/Dark_Mage.ttf'); /*Primero busca si está en el ordenador, y sino la descarga. */
+}
+
+.parrafo {
+    font-family: 'fuentecita',sans-serif;
+}

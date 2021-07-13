@@ -69,3 +69,5 @@ Consejos para paletas de colores:
 * Tipografías.
     * Font-family.
     * Google fonts.
+    * Font - Face
+* Google Icons.
