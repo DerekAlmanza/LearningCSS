@@ -1,0 +1,95 @@
+body {
+    overflow: hidden;
+    background-color: #1aa39c;
+    font-family: sans-serif;
+    font-size: 1.3rem;
+}
+
+.circulos {
+    position: absolute;
+}
+
+.circulo--top {
+    top: -400px;
+    left: -400px;
+}
+
+.circulo--bottom {
+    bottom: -450px;
+    right: -400px;
+}
+
+.tarjeta {
+    position: relative;
+    top: 10vh;
+    width: 400px;
+    height: 370px;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: white;
+    border-radius: 20px;
+    overflow: hidden;
+}
+
+.tarjeta__header {
+    position: relative;
+    height: 110px;
+    text-align: center;
+}
+
+.tarjeta__header-fondo {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+}
+
+.tarjeta__header-perfil {
+    position: absolute;
+    top: 90px;
+    left: 150px;
+    border-radius: 45px;
+    border: 3px solid white;
+    background-color: white;
+}
+
+.tarjeta__cuerpo {
+    position: absolute;
+    top: 200px;
+    width: 100%;
+    text-align: center;
+}
+
+.tarjeta__texto {
+    margin: 0;
+    margin-bottom: 0.3em;
+}
+
+.tarjeta__texto--light {
+    color: rgb(121, 119, 119);
+}
+
+.tarjeta__footer {
+    position: absolute;
+    bottom: 25px;
+    width: 100%;
+    text-align: center;
+}
+
+.tarjeta__estadisticas {
+    display: inline-block;
+    margin: 0 0.5em;
+    width: 100px;
+    text-align: center;
+}
+
+.botones {
+    position: absolute;
+    padding: 10px;
+    bottom: 30px;
+    left: 615px;
+    border: 5px 5px darkslategray;
+    border-radius: 15px;
+    color: white;
+    background-color: orangered;
+}

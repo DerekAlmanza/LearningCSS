@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/style_principal.css">
+    <title>Practica 01</title>
+</head>
+<body>
+    <h1 style="position: relative; text-align:center; color: white; text-shadow: -3px -3px 4px black;"> 
+        Practica 01. Tarjeta de perfil de usuario. 
+    </h1>
+
+    <img src="./images/top-circle.svg" alt="top-circle" class="circulos circulo--top">
+    <img src="./images/bottom-circle.svg" alt="bottom-circle" class="circulos circulo--bottom">
+
+    <article class="tarjeta">
+        <header class="tarjeta__header">
+            <img src="./images/card-pattern.svg" alt="Foto de portada" class="tarjeta__header-fondo">
+            <img src="./images/victor.jpg" alt="Foto de perfil" class="tarjeta__header-perfil">
+        </header>
+        <section class="tarjeta__cuerpo">
+            <p class="tarjeta__texto"> 
+                Victor Krum 
+                <span class="tarjeta__texto tarjeta__texto--light"> 27 </span>
+            </p>
+            <p class="tarjeta__texto tarjeta__texto--light"> Alemania </p>
+        </section>
+        <footer class="tarjeta__footer">
+            <div class="tarjeta__estadisticas">
+                <div class="tarjeta__seguidores"> 10k </div>
+                <p class="tarjeta__texto tarjeta__texto--light"> Seguidores </p>
+            </div>
+            <div class="tarjeta__estadisticas">
+                <div class="tarjeta__fotos"> 374 </div>
+                <p class="tarjeta__texto tarjeta__texto--light"> Fotos </p>
+            </div>
+            <div class="tarjeta__estadisticas">
+                <div class="tarjeta__likes"> 170k </div>
+                <p class="tarjeta__texto tarjeta__texto--light"> Likes </p>
+            </div>
+        </footer>
+    </article>
+    <div>
+        <input type="button" class="botones" value="Regresar a prácticas." onclick="location.href='../index_practicas.html'">
+    </div>
+</body>
+</html>

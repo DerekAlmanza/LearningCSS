@@ -80,3 +80,6 @@ Lugares para apoyarse en investigación:
     * Text-shadow.
     * Espaciado entre caracteres.
 * Google Icons.
+
+### Prácticas.
+* Práctica 01. Tarjeta de perfil de usuario.
