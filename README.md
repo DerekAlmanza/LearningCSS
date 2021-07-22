@@ -13,6 +13,11 @@ Consejos para paletas de colores:
 * color hunt.
 * adobe color.
 
+Lugares para apoyarse en investigación:
+* Documentación oficial de MDN
+* CSS-tricks.
+* Can I Use.
+
 ### Contenido:
 
 * Conectar CSS con HTML.
@@ -73,4 +78,5 @@ Consejos para paletas de colores:
     * Text-decoration.
     * Text-transform.
     * Text-shadow.
+    * Espaciado entre caracteres.
 * Google Icons.

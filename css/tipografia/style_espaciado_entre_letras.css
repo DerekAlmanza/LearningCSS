@@ -1,0 +1,47 @@
+/*
+Espaciado en fuentes y textos.
+    * letter-spacing: Establece la separación entre caracteres, se puede establecer cualquier medida válida en CSS.
+    * word-spacing: Establece la separación entre palabras, se puede establecer cualquier medida válida en CSS.
+    * line-height: Establece el alto de cada línea, se puede dar una medida concreta o un número el cual se 
+                multiplica por el font-size.
+    * writing-mode: Establece la dirección del texto.
+*/
+
+@font-face {
+    font-family: 'fuenteParrafo';
+    src: local('Dark Mage'),url(../../fonts/Dark_Mage.ttf);
+}
+
+p {
+    color: white;
+}
+
+.parrafo-1 {
+    font-family: 'fuenteParrafo', sans-serif;
+    text-transform: uppercase;
+    letter-spacing: 5px; /* Sirve para fuentes que están muy juntas. */
+}
+
+.parrafo-2 {
+    text-transform: capitalize;
+    word-spacing: 5px;
+}
+
+.parrafo-3 {
+    text-transform: capitalize;
+    line-height: 2;
+}
+
+.parrafo-4 {
+    font-size: 15px;
+    writing-mode: vertical-lr;
+    margin-bottom: 20px;
+}
+
+.parrafo-5 {
+    position: absolute;
+    top: 400px;
+    left: 150px;
+    font-size: 15px;
+    writing-mode: vertical-rl;
+}
