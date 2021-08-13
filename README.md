@@ -83,3 +83,4 @@ Lugares para apoyarse en investigación:
 
 ### Prácticas.
 * Práctica 01. Tarjeta de perfil de usuario.
+* Práctica 02. Creación de tarjetas.

@@ -1,0 +1,116 @@
+body {
+    text-align: center;
+    font-weight: 400;
+    font-family: 'Poppins', sans-serif;
+    background-color: hsl(0, 0%, 93%);
+}
+
+* {
+    box-sizing: border-box;
+}
+
+.titulo-principal {
+    display: block;
+    font-size: 2.5rem;
+}
+
+.subtitulo {
+    width: 30%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.texto-thin {
+    font-weight: 200;
+}
+
+.texto-bold {
+    font-weight: 600;
+}
+
+.texto-light {
+    color: hsl(229, 6%, 66%);
+}
+
+.contenedor {
+    position: relative;
+    width: 1200px;
+    height: 550px;
+    margin: 5em auto; /*contenedor centrado y con espacios verticales*/
+}
+
+.tarjeta {
+    position: absolute;
+    width: 350px;
+    height: 250px;
+    padding: 0 2em;
+    font-size: 0.9rem;
+    border-radius: 10px;
+    box-shadow: 5px 10px 10px #0007;
+    background-color: hsl(0, 0%, 93%);
+}
+
+.tarjeta--cyan {
+    border-top: 10px solid cyan;
+}
+
+.tarjeta--red {
+    border-top: 10px solid red;
+}
+
+.tarjeta--orange {
+    border-top: 10px solid orange;
+}
+
+.tarjeta--blue {
+    border-top: 10px solid blue;
+}
+
+.tarjeta--top,
+.tarjeta--bottom {
+    left: 425px;
+}
+
+.tarjeta--left,
+.tarjeta--right {
+    top: 150px;
+}
+
+.tarjeta--left {
+    left: 0;
+}
+
+.tarjeta--top {
+    top: 0;
+}
+
+.tarjeta--right {
+    right: 0;
+}
+
+.tarjeta--bottom {
+    bottom: 0;
+}
+
+.titulo-tarjeta,
+.texto-tarjeta {
+    text-align: left;
+}
+
+.tarjeta-icon {
+    position: absolute;
+    bottom: 2em;
+    right: 2em;
+}
+
+.botones {
+    position: relative; 
+    bottom: 50px;
+    padding: 10px;
+    margin-left: auto;
+    margin-right: auto;
+    border: 5px 5px darkslategray;
+    border-radius: 15px;
+    color: white;
+    background-color: orangered;
+}
