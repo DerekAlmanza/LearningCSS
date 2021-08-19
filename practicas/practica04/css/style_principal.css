@@ -1,0 +1,115 @@
+/*
+NOTAS IMPORTANTES:
+    * --algo: Declaración de variable.
+*/
+
+@import url("https://fonts.googleapis.com/css2?family=Cardo:wght@400;700&display=swap");
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+
+body {
+    background-color: hsl(180, 41%, 83%);
+}
+
+.titulo {
+    margin-top: 10px;
+    text-align: center;
+    font-style: italic;
+    color: #0009;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+    min-height: 80vh;
+    /* background-color: aquamarine; */
+}
+
+.tarjeta {
+    font-family: 'Cardo', sans-serif;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container span {
+    display: block;
+    position: absolute;
+    top: 0;
+    width: 250px;
+    height: 250px;
+    border-radius: 50%;
+    transform-origin: 125px 0;
+    transform: rotate(calc(90deg * var(--i)));
+    background-color: black;
+    filter: blur(80px);
+    opacity: 0.75;
+}
+
+.tarjeta span:nth-child(1){
+    background-color: #01b2fe;
+}
+
+.tarjeta span:nth-child(2){
+    background-color: #ff008c;
+}
+
+.tarjeta span:nth-child(3){
+    background-color: #ffcd00;
+}
+
+.tarjeta span:nth-child(4){
+    background-color: #00c456;
+}
+
+.cristal {
+    display: flex;
+    position: absolute;
+    justify-content: flex-start;
+    align-items: flex-end;
+    width: 450px;
+    height: 300px;
+    border-radius: 20px;
+    background-color: rgba(255, 255, 255, 0.5);
+    overflow: hidden;
+}
+
+.cristal::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: -50%;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(255, 255, 255, 0.2);
+    transform: skewX(345deg);
+}
+
+.informacion-general {
+    padding: 10px;
+    width: 100%;
+    background-color: rgba(255, 255, 255, 0.2);
+    color: #333;
+    text-align: end;
+}
+
+.botones {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 15px;
+    padding: 10px;
+    border: 5px 5px darkslategray;
+    border-radius: 15px;
+    color: white;
+    background-color: orangered;
+    cursor: pointer;
+}

@@ -81,6 +81,7 @@ body {
 .tarjeta-cta:hover {
     box-shadow: inset 3px 3px 10px black;
 }
+
 .botones {
     margin-top: 15px;
     padding: 10px;
