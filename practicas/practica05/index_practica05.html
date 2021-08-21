@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/style_principal.css">
+    <title>Practica05</title>
+</head>
+<body>
+    <h1 class="titulo"> Practica05. Creacion de tarjetas cristalinas con movimiento. </h1>
+
+    <div class="contenedor">
+        <div class="tarjetas">
+            <div class="tarjeta">
+                <div class="contenido">
+                    <h2>01</h2>
+                    <h3>Tarjeta Uno</h3>
+                    <p>
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Ratione recusandae sequi 
+                        tenetur dolorum sint unde quidem beatae commodi nobis laboriosam. Ut earum velit 
+                        corrupti? Quam ducimus amet similique inventore non?
+                    </p>
+                    <a href="#">Leer Más</a>
+                </div>
+            </div>
+            <div class="tarjeta">
+                <div class="contenido">
+                    <h2>02</h2>
+                    <h3>Tarjeta Dos</h3>
+                    <p>
+                        Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nisi quaerat non recusandae,
+                        ipsa, quo eligendi deserunt nostrum quam harum illum tenetur sequi sit cupiditate! 
+                        Hic rerum quam a amet minima?
+                    </p>
+                    <a href="#">Leer Más</a>
+                </div>
+            </div>
+            <div class="tarjeta">
+                <div class="contenido">
+                    <h2>03</h2>
+                    <h3>Tarjeta Tres</h3>
+                    <p>
+                        Lorem ipsum dolor sit, amet consectetur adipisicing elit. Optio atque accusamus 
+                        necessitatibus consequatur cumque repellat architecto voluptates, pariatur ducimus 
+                        est, natus nisi assumenda dolor sapiente dolore ipsam animi corporis unde.
+                    </p>
+                    <a href="#">Leer Más</a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div>
+        <input type="button" class="botones" value="Regresar a prácticas de tarjetas." onclick="location.href='../index_practicas_tarjetas.html'">
+    </div>
+
+    <script type="text/javascript" src="./js/vanilla-tilt.js"></script>
+    <script type="text/javascript">
+        VanillaTilt.init(document.querySelectorAll('.tarjeta'), {
+            max: 25,
+            speed: 400
+        });
+    </script>
+</body>
+</html>
