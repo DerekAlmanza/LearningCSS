@@ -1,5 +1,5 @@
 body {
-    background-image: url("img/fondo_pantalla.jpg") !important;
+    background-image: url("img/fondo_pantalla.jpg");
     background-size: cover;
     margin: 10px;
 }
