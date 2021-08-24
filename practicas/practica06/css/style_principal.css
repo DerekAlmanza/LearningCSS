@@ -11,6 +11,13 @@ body {
     background-color: #0d0a38;
 }
 
+.titulo {
+    margin-top: 10px;
+    text-align: center;
+    font-style: italic;
+    color: #fff9;
+}
+
 .contenedor {
     display: flex;
     justify-content: center;
@@ -79,13 +86,6 @@ body {
     text-transform: uppercase;
     letter-spacing: 2px;
     color: #fff;
-}
-
-.titulo {
-    margin-top: 10px;
-    text-align: center;
-    font-style: italic;
-    color: #fff9;
 }
 
 .botones {

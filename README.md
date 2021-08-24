@@ -1,6 +1,11 @@
 # LearningCSS
 Curso tomado de CSS 2021, usado para aprendizaje propio y para quien le sirva.
 
+### Autor. 👤
+
+Almanza Infante Derek -
+Facultad de Ciencias UNAM.
+
 ### Modo de uso:
 Clone el repositorio y ejecute index.html de la carpeta, ahí tendrá un menú sencillo para poder desplegar los temas.
 
@@ -88,3 +93,4 @@ Lugares para apoyarse en investigación:
 * Práctica 04. Creación de tarjeta cristalina.
 * Práctica 05. Creación de tarjeta cristalina con movimiento.
 * Práctica 06. Botones con orilla brillante (efecto hover).
+* Practica 07. Despliegue de imagen (ilusión de imagen 2D a 3D).
