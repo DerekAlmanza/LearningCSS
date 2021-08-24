@@ -87,3 +87,4 @@ Lugares para apoyarse en investigación:
 * Práctica 03. Creación de tarjetas responsive.
 * Práctica 04. Creación de tarjeta cristalina.
 * Práctica 05. Creación de tarjeta cristalina con movimiento.
+* Práctica 06. Botones con orilla brillante (efecto hover).
