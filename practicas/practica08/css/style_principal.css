@@ -1,0 +1,145 @@
+/* 
+    * vertical-align: Sirve para alinear verticalmente elementos de línea (de bloque no funciona).
+*/
+
+@import url('https://fonts.googleapis.com/css2?family=Karla:ital,wght@0,200;0,400;1,200;1,400&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    width: 1400px;
+    margin: 7em auto;
+    background-color: hsl(0, 0%, 90%);
+    font-family: 'Karla', sans-serif;
+}
+
+.fondo-pantalla {
+    position: absolute;
+    z-index: -1;
+}
+
+.imagen-superior {
+    left: 0;
+    top: 0;
+}
+
+.imagen-inferior {
+    right: 0;
+    bottom: 0;
+}
+
+header,
+aside {
+    display: inline-block;
+    width: 500px;
+}
+
+header {
+    margin-right: 300px;
+    margin-bottom: 5em;
+}
+
+.titulo {
+    font-size: 3rem;
+    color: hsl(300, 43%, 22%)
+}
+
+.subtitulo {
+    margin-top: 25px;
+    color: hsl(303, 10%, 53%);
+}
+
+.estrellas {
+    position: relative;
+    margin-bottom: 1em;
+    line-height: 5;
+    padding: 0 2em;
+    border-radius: 10px;
+    background-color: hsl(300, 24%, 96%);
+}
+
+.estrellas img { 
+    vertical-align: middle;
+    margin-right: 3px;
+}
+
+.estrellas span {
+    margin-left: 1em;
+    color: hsl(303, 10%, 53%);
+}
+
+.estrellas:nth-child(2) {
+    left: 50px;
+}
+
+.estrellas:nth-child(3) {
+    left: 100px;
+}
+
+.resenias {
+    display: inline-block;
+    position: relative;
+    width: 400px;
+    height: 300px;
+    margin-right: 50px;
+    padding: 2em 2.5em;
+    border-radius: 10px;
+    color: hsl(300, 24%, 96%);
+    background-color: hsl(300, 43%, 22%);
+}
+
+.usuario {
+    width: 300px;
+}
+
+.resenias--dos {
+    top: 25px;
+}
+
+.resenias--tres {
+    top: 125px;
+}
+
+.usuario-foto {
+    border-radius: 50%;
+    max-width: 30%;
+}
+
+.usuario-foto,
+.info-usuario {
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.usuario-nombre,
+.usuario-categoria {
+    margin: .5em 1em;
+}
+
+.usuario-categoria {
+    color: hsl(333, 80%, 67%);
+}
+
+.resenia {
+    margin-top: 25px;
+    vertical-align: middle;
+}
+
+.botones {
+    position: relative;
+    display: block;
+    top: 100px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 15px;
+    padding: 10px;
+    border: 5px 5px darkslategray;
+    border-radius: 15px;
+    color: white;
+    background-color: orangered;
+    cursor: pointer;
+}

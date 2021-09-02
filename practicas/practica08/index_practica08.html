@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/style_principal.css">
+    <title>Practica 08</title>
+</head>
+<body>
+
+    <img class="fondo-pantalla imagen-superior" src="./images/bg-pattern-top.svg" alt="bck image top">
+    <img class="fondo-pantalla imagen-inferior" src="./images/bg-pattern-bottom.svg" alt="bck image bottom">
+
+    <!-- Título y subtítulo -->
+    <header>
+        <h1 class="titulo"> Práctica 08. Acomodar elementos usando position relative.</h1>
+        <p class="subtitulo">
+            Este es un subtítulo de prueba. Nosotros proveemos los mejores productos con un excelente servicio al usuario. Observe
+            qué tan satisfechos terminan nuestros usuarios después de comprar nuestro producto.
+        </p>
+    </header>
+
+    <!-- Calificaciones con estrellas. -->
+    <aside>
+        <div class="estrellas">
+            <img src="./images/icon-star.svg" alt="estrellita">
+            <img src="./images/icon-star.svg" alt="estrellita">
+            <img src="./images/icon-star.svg" alt="estrellita">
+            <img src="./images/icon-star.svg" alt="estrellita">
+            <img src="./images/icon-star.svg" alt="estrellita">
+            <span> Calificado con 5 estrellas en reseñas. </span>
+        </div>
+        <div class="estrellas">
+            <img src="./images/icon-star.svg" alt="estrellita">
+            <img src="./images/icon-star.svg" alt="estrellita">
+            <img src="./images/icon-star.svg" alt="estrellita">
+            <img src="./images/icon-star.svg" alt="estrellita">
+            <img src="./images/icon-star.svg" alt="estrellita">
+            <span> Calificado con 5 estrellas en report Guru. </span>
+        </div>
+        <div class="estrellas">
+            <img src="./images/icon-star.svg" alt="estrellita">
+            <img src="./images/icon-star.svg" alt="estrellita">
+            <img src="./images/icon-star.svg" alt="estrellita">
+            <img src="./images/icon-star.svg" alt="estrellita">
+            <img src="./images/icon-star.svg" alt="estrellita">
+            <span> Calificado con 5 estrellas en BestTech. </span>
+        </div>
+    </aside>
+
+    <!-- Reseñas -->
+    <main>
+        <article class="resenias resenias--uno">
+            <div class="usuario">
+
+                <img  class="usuario-foto" src="./images/image-colton.jpg" alt="usuario">
+
+                <div class="info-usuario">
+                    <p class="usuario-nombre"> Colton Smith</p>
+                    <p class="usuario-categoria"> Comprador verificado </p>
+                </div>
+
+            </div>
+            <p class="resenia resenias--dos">
+                Necesitábamos el mismo diseño como el que se había ordenado una semana anterior, no encontraron la orden original
+                pero entregaron el trabajo a tiempo. Excelente.
+            </p>
+        </article>
+
+        <article class="resenias resenias--dos">
+            <div class="usuario">
+
+                <img class="usuario-foto" src="./images/image-irene.jpg" alt="usuario">                
+
+                <div class="info-usuario">
+                    <p class="usuario-nombre"> Irene Roberts</p>
+                    <p class="usuario-categoria"> Comprador verificado </p>
+                </div>
+
+            </div>
+            <p class="resenia">
+                Servicio al cliente siempre es realmente eficiente. Con mucha facilidad de compra y una rápida entrega.
+            </p>
+        </article>
+
+        <article class="resenias resenias--tres">
+            <div class="usuario">
+
+                <img class="usuario-foto" src="./images/image-anne.jpg" alt="usuario">
+
+                <div class="info-usuario">
+                    <p class="usuario-nombre"> Anne Wallace</p>
+                    <p class="usuario-categoria"> Comprador verificado </p>
+                </div>
+
+            </div>
+            <p class="resenia">
+                Pedir una orden con esta compañía te prometerá un producto de la más alta calidad. Definitivamente solicitaríamos
+                nuevas órdenes en un futuro y se lo reocmendaríamos a todos.
+            </p>
+        </article>
+    </main>
+    <div>
+        <input type="button" class="botones" value="Regresar a prácticas varias." onclick="location.href='../index_practicas_varios.html'">
+    </div>
+    
+</body>
+</html>
