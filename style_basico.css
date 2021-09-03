@@ -1,4 +1,7 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700;800;900&display=swap");
+
 body {
+    font-family: 'Poppins', sans-serif;
     background-image: url("img/fondo_pantalla.jpg");
     background-size: cover;
     margin: 10px;
@@ -9,6 +12,9 @@ body {
 }
 
 .botones {
+    padding: 5px;
+    font-family: 'Poppins';
+    font-weight: 500;
     margin-bottom: 15px;
     border-radius: 10px;
     border-color: antiquewhite;

@@ -94,4 +94,6 @@ Lugares para apoyarse en investigación:
 * Práctica 05. Creación de tarjeta cristalina con movimiento.
 * Práctica 06. Botones con orilla brillante (efecto hover).
 * Practica 07. Despliegue de imagen (ilusión de imagen 2D a 3D).
-* Práctica08. Acomodar elementos usando position relative.
+* Práctica 08. Acomodar elementos usando position relative.
+* Práctica 09. Acomodar elementos tipo GRID sin usar GRID. (_Sin terminar_)
+* Práctica 10. Menú flotante. 
