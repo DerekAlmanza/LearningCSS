@@ -1,0 +1,125 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700;800;900&display=swap");
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+body {
+    background-color: #031321;
+}
+
+.contenedor {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 80vh;
+}
+
+a {
+    display: inline-block;
+    position: relative;
+    padding: 15px 30px;
+    text-transform: uppercase;
+    text-decoration: none;
+    letter-spacing: 4px;
+    font-size: 2em;
+    color: #2196f3;
+    transition: 0.5s;
+    overflow: hidden;
+}
+
+a:hover {
+    color: #255784;
+    background-color: #2196f3;
+    box-shadow: 0 0 10px #2196f3, 0 0 30px #2196f3, 0 0 80px #2196f3;
+    transition: 1s;
+    transition-delay: 1s;
+}
+
+a span { 
+    display: block;
+    position: absolute;
+}
+
+/*Agregar los bordes de color*/
+a span:nth-child(1),
+a span:nth-child(3) {
+    background: linear-gradient(90deg, transparent, #2196f3);
+    width: 100%;
+    height: 2px;
+}
+
+a span:nth-child(2),
+a span:nth-child(4) {
+    background: linear-gradient(180deg, transparent, #2196f3);
+    width: 2px;
+    height: 100%;
+}
+
+
+a span:nth-child(1) {
+    top: 0;
+    left: -100%;
+}
+
+a:hover span:nth-child(1) {
+    left: 100%;
+    transition: 1s;
+}
+
+a span:nth-child(2) {
+    top: -100%;
+    right: 0;
+}
+
+a:hover span:nth-child(2) {
+    top: 100%;
+    transition: 1s;
+    transition-delay: 0.25s;
+}
+
+a span:nth-child(3) {
+    bottom: 0;
+    right: -100%;
+}
+
+a:hover span:nth-child(3) {
+    right: 100%;
+    transition: 1s;
+    transition-delay: 0.5s;
+}
+
+a span:nth-child(4) {
+    bottom: -100%;
+    left: 0;
+}
+
+a:hover span:nth-child(4) {
+    bottom: 100%;
+    transition: 1s;
+    transition-delay: 0.75s;
+}
+
+.titulo {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    text-align: center;
+    font-style: italic;
+    color: #fff9;
+}
+
+.botones {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 15px;
+    padding: 10px;
+    border: 5px 5px darkslategray;
+    border-radius: 15px;
+    color: white;
+    background-color: orangered;
+    cursor: pointer;
+}
