@@ -1,0 +1,100 @@
+/* 
+text-shadow -> Propiedad utilizada para darle sombra al texto. 
+    Sintaxis: offset-x | offset-y | blur-radius | color |
+    Sintaxis si se quieren agregar varias sombras: offset-x | offset-y | blur-radius | color |, offset-x | offset-y | blur-radius | color |, etc
+
+white-space -> Propiedad que determina el manejo de espacios en blanco entre texto.
+*/
+
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700;800;900&display=swap");
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+body {
+    background-color: #222;
+    margin: 1em;
+}
+
+.titulo {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    text-align: center;
+    font-style: italic;
+    color: #fff9;
+}
+
+section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    width: 100%;
+    height: 80vh;
+}
+
+ul {
+    display: flex;
+    flex-direction: column;
+    position: relative;
+}
+
+ul li {
+    list-style: none;
+}
+
+ul li .item {
+    display: block;
+    position: relative;
+    text-decoration: none;
+    text-align: center;
+    text-transform: uppercase;
+    color: #fff;
+    font-size: 5em;
+    font-weight: 700;
+    transition: 0.5s;
+}
+
+ul li .item:hover {
+    color: rgba(255, 255, 255, 0.1);
+    transition-delay: 0s;
+}
+
+ul li .item::before {
+    content: attr(data-text);
+    position: absolute; /*Para que se ponga justo detrás del item.*/
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    font-size: 0.35em;
+    font-weight: 500;
+    letter-spacing: 40px;
+    white-space: nowrap; /* Para que el contenido del texto no se desborde y cambie de renglón. */
+    color: #3bffe8;
+    text-shadow: 0 0 10px #3bffe8, 0 0 80px #3bffe8, 0 0 80px #3bffe8;
+    opacity: 0; /* Para que no se vea el elemento*/
+    transition: 0.5s;
+}
+
+ul li .item:hover:before {
+    opacity: 1;
+    letter-spacing: 6px; /* Así parecerá que las letras se juntan por el letter-spacing del ul li .item:before*/
+    transition-delay: 0.3s;
+}
+
+.botones {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 15px;
+    padding: 10px;
+    border: 5px 5px darkslategray;
+    border-radius: 15px;
+    color: white;
+    background-color: orangered;
+    cursor: pointer;
+}
