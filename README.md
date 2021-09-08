@@ -97,3 +97,4 @@ Lugares para apoyarse en investigación:
 * Práctica 08. Acomodar elementos usando position relative.
 * Práctica 09. Acomodar elementos tipo GRID sin usar GRID. (_Sin terminar_)
 * Práctica 10. Menú flotante. 
+* Práctica 11. Hacer Masonry layout (Pinterest layout).
