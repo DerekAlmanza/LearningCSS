@@ -1,0 +1,95 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700;800;900&display=swap");
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+body {
+    background-color: #fff;
+    transition: 0.5s;
+}
+
+body.oscuro {
+    background-color: #00151f;
+}
+
+.toogle {
+    position: absolute;
+    top: 30px;
+    right: 50px;
+    width: 85px;
+    height: 39px;
+    border: 2px solid #00151f;
+    border-radius: 20px;
+    background-color: #fff;
+    cursor: pointer;
+    transition: 0.5s;
+}
+
+.toogle.active {
+    background-color: #00151f;
+    border: 2px solid #fff;
+}
+
+.toogle::before {
+    content: '';
+    position: absolute;
+    top: 1px;
+    left: 0;
+    width: 33px;
+    height: 33px;
+    background: #00151f;
+    border-radius: 50%;
+    transition: 0.5s;
+}
+
+
+.toogle.active::before {
+    position: absolute;
+    left: 47px;
+    background-color: #fff;
+}
+
+.titulo {
+    position: relative;
+    top: 60px;
+    margin-top: 10px;
+    margin-bottom: 40px;
+    text-align: center;
+    font-style: italic;
+    color: #00151f;
+    transition: 0.5s;
+}
+
+p {
+    margin-bottom: 30px;
+    font-size: 1.2em;
+    font-weight: 500;
+    transition: 0.5s;
+}
+
+.contenedor {
+    margin: 100px auto;
+    max-width: 1000px;
+}
+
+.titulo.letras-claras,
+.contenedor.letras-claras {
+    color: #fff;
+}
+
+.botones {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 15px;
+    padding: 10px;
+    border: 5px 5px darkslategray;
+    border-radius: 15px;
+    color: white;
+    background-color: orangered;
+    cursor: pointer;
+}

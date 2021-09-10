@@ -100,3 +100,4 @@ Lugares para apoyarse en investigación:
 * Práctica 11. Hacer Masonry layout (Pinterest layout).
 * Práctica 12. Menú con opciones neón (hover effect).
 * Práctica 13. Botón neón.
+* Práctica 14. Modo oscuro en página web.
