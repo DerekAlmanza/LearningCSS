@@ -1,0 +1,38 @@
+/*
+::after y ::before
+Son los pseudoelementos más usados en CSS, nos permiten generar dos hijos extra que serán hijos del 
+elemento al que se lo apliquemos.
+
+::after se colocará después del elemento. Equivalente a que pusiéramos un <span> antes del elemento.
+::before se colocará antes del elemento. Equivalente a que pusiéramos un <span> después del elemento. 
+
+** Son elementos de línea **
+
+Estos "hijos" no se verán reflejados en el HTML, por lo que no están accesibles ni en el JS ni los podemos seleccionar
+en ningún momento.
+
+Se usan principalmente para adornar al elemento al que se lo aplicamos.
+
+Le podemos aplicar cualquier propiedad como si se tratara de un <span> cualquiera, pero con la peculiaridad de que
+es necesario que tenga un ** content **, si no los cambios no se verían reflejados en pantalla.
+
+NO TODOS LOS ELEMENTOS ADMITEN ::after y/o ::before, no se pueden usar en los elementos considerados ** REPLACED ELEMENTS **, los
+cuales son aquellos que su representación está fuera del ámbito propio de CSS, algunos ejemplos son:
+<img>, <object>, <video>, <textarea>, <input>, <audio> o <canvas>.
+
+*/
+
+.span {
+    color: aliceblue;
+}
+
+.span::before,
+.span::after {
+    content: '';
+    display: block;
+    width: 5em;
+    height: .25em;
+    margin: 1em;
+    background-color: red;
+
+}

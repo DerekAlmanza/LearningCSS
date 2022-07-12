@@ -2,6 +2,9 @@
 :hover
 Usada para cambiar el estilo del elemento cuando se le coloca el cursor encima.
 */
+body {
+    text-align: center;
+}
 
 .container {
     display: flex;
