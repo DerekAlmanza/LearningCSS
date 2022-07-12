@@ -1,0 +1,35 @@
+/* 
+:hover
+Usada para cambiar el estilo del elemento cuando se le coloca el cursor encima.
+*/
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.button1:hover {
+    color: purple;
+    background-color: orange;
+}
+
+/* 
+En caso de pantallas táctiles :hover no funciona correctamente, por lo que si deseamos colocar hover en dispositivos
+de escritorio pero queremos omitir este comportamient en dispositivos móviles podemos hacer lo siguiente.
+*/
+@media (hover:hover) {
+    .button1:hover {
+        color: purple;
+        background-color: orange;
+    }
+}
+
+/*
+:active
+Se usa para establecer el estado activo de ese elemento cuando hacemos click.
+*/
+.button2:active {
+    color: orange;
+    background-color: purple;
+}
