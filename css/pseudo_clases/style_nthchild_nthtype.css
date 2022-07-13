@@ -1,0 +1,93 @@
+/* 
+nth-child(An +- B)
+Usada para darle estilo a los elementos que coincidan con la fórmula contando a TODOS los hijos del elemento padre.
+
+nth-of-type(An +- B)
+Usada para darle estilo a los elementos que coincidan con la fórmula contando a SÓLO los hijos que coincidan con el selector.
+
+Fórmula (An +- B)
+* A: corresponde al número por el que se multiplicará el contador, puede tener valores positivos o negativos, pero el caso negativo se usa
+    casos específicos.
+* n: Es el contador, empieza con 0 e irá sumando 1 hasta recorrer todos los elementos que correspondan al selector.
+* +/-: Sumar o restar.
+* B: Elemento offset para saber a partir de qué elemento se empieza a contar.
+
+A es obligatorio, todos los demás opcionales, dejando los siguientes casos:
+* (A)
+* (An)
+* (An + B)
+* (An - B)
+* (-An + B)
+
+*/
+
+.caja {
+    display: inline-block;
+    width: 4em;
+    height: 4em;
+    border: 1px solid orange;
+}
+
+/* 
+Selecciona la segunda caja
+
+    .caja:nth-child(3) {
+    background-color: purple;
+} 
+*/
+
+/* 
+Selecciona la tercera caja
+
+    .caja:nth-of-type(3){
+    background-color: purple;
+    } 
+*/
+
+/* 
+1ª vuelta: 2*0 = 0 -> Ningún elemento
+2ª vuelta: 2*1 = 2 -> Segundo elemento
+3ª vuelta: 2*2 = 4 -> Cuarto elemento
+4ª vuelta: 2*3 = 6 -> Sexto elemento
+5ª vuelta: 2*4 = 8 .caja:nth-of-type(2n + 1) {
+    background-color: purple;
+}-> Octavo elemento 
+6ª vuelta: 2*5 = 10 -> Décimo elemento
+7ª vuelta: 2*6 = 12 -> Doceavo elemento (no existe)
+
+    .caja:nth-of-type(2n) {
+    background-color: purple;
+    }
+*/
+
+/* 
+1ª vuelta: 2*0+1 = 1 -> Ningún elemento
+2ª vuelta: 2*1+1 = 3 -> Tercer elemento
+3ª vuelta: 2*2+1 = 5 -> Quinto elemento 
+4ª vuelta: 2*3+1 = 7 -> Séptimo elemento
+5ª vuelta: 2*4+1 = 9 -> Noveno elemento 
+6ª vuelta: 2*5+1 = 11 -> Onceavo elemento (no existe)
+
+    .caja:nth-of-type(2n + 1) {
+    background-color: purple;
+    }
+*/
+
+/* 
+1ª vuelta: -2*0+6 = 6 -> Sexto elemento
+2ª vuelta: -2*1+6 = 4 -> Cuarto elemento
+3ª vuelta: -2*2+6 = 2 -> Segundo elemento 
+4ª vuelta: -2*3+6 = 0 -> Séptimo elemento (no existe)
+
+    .caja:nth-of-child(-2n + 6) {
+    background-color: purple;
+    }
+*/
+
+/* 
+Para seleccionar pares e impares podemos poner even(pares, igual a 2n) u odd(impares, igual a 2n + 1)
+
+    .caja:nth-of-type(odd) {
+    background-color: purple;
+    }
+*/
