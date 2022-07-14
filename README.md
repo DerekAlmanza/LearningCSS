@@ -38,8 +38,12 @@ Lugares para apoyarse en investigación:
             * Otros atributos.
     * Selectores compuestos.
         * Selectores agrupados.
-    <!--     * Selectores combinados.
-        * Pseudoclases - Pseudoelementos. -->
+    <!--     * Selectores combinados. -->
+        * Pseudoclases.
+          * hover - active.
+          * nth-child - nth-of-type.
+        * Pseudoelementos.
+          * after - before.
 * Especifidad.
 * Cascada.
 * Herencia.
@@ -54,6 +58,7 @@ Lugares para apoyarse en investigación:
 * Overflow.
 * Colapsado de márgenes.
 * Display.
+  * Justify-content
 * Outline.
 * Text align.
 * Box shadow.
@@ -85,6 +90,7 @@ Lugares para apoyarse en investigación:
     * Text-shadow.
     * Espaciado entre caracteres.
 * Google Icons.
+* Metodología BEM.
 
 ### Prácticas.
 * Práctica 01. Tarjeta de perfil de usuario.

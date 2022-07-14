@@ -1,0 +1,64 @@
+/* 
+Justify-content:
+
+Con esta propiedad podemos alinear elementos en el eje principal.
+
+El valor por defecto es ** flex-start (start) **, es decir, los elementos se colocan al principio del 
+eje principal.
+
+Los otros posibles valores son:
+* center: Los elementos se colocan al centro del eje principal.
+* flex-end (end): Los elementos se colocan al final del eje principal.
+* space-between: Los elementos se colocan con el mismo espacio entre ellos, colocando el primer hijo al principio del eje
+    y el último al final del eje.
+* space-around: Los elementos se colocan con el mismo espacio entre ellos, pero cada elemento tendrá la misma separación
+    por los lados, esto ocasiona que el primer y último elemento tengan menor separación.
+* space-evenly: Los elementos se colocan con el mismo espacio entre ellos, y cada elemento tendrá la misma separación 
+    tanto entre ellos como el primero y el último.
+
+*/
+
+h3 {
+    color: white;
+}
+
+.caja {
+    width: 3em;
+    height: 3em;
+    background-color: rgb(245, 185, 76);
+    color: purple;
+    border: 3px solid purple;
+    font-size: 2em;
+    line-height: 4em;
+    text-align: center;
+}
+
+.container {
+    display: flex;
+    height: 6.5em;
+    border: 1px solid coral;
+}
+
+.container--flex-start {
+    justify-content: flex-start;
+}
+
+.container--center {
+    justify-content: center;
+}
+
+.container--flex-end {
+    justify-content: flex-end;
+}
+
+.container--space-between {
+    justify-content: space-between;
+}
+
+.container--space-around {
+    justify-content: space-around;
+}
+
+.container--space-evenly {
+    justify-content: space-evenly;
+}
