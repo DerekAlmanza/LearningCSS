@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../css/style_metodologia_BEM.css">
+    <link rel="stylesheet" href="../style_basico.css">
+    <title>Metodología BEM</title>
+</head>
+<body>
+
+    <h1 style="color: white;">Metodologia BEM</h1>
+
+    <h3>Block</h3>
+    <p>
+        Para bloques de CSS conviene poner un solo nombre de clase en lugar de varios con el finde reutilizar
+        código.
+    </p>
+    <br>
+    <img src="../img/bloqueCSS.png" alt="Bloque">
+    <br>
+    <h3>Element</h3>
+    <p>
+        Caracterizado por ser parte del bloque. Estos deben de ser nombrados con el nombre del bloque seguido de guiones bajos
+        (_) y el elemento en cuestión.
+    </p>
+    <img src="../img/element1.png" alt="Element">
+    <img src="../img/element2.png" alt="Element">
+    <br>
+    <h3>Modifier</h3>
+    <p>
+        Caracterizado por modificar al bloque o al elemento. Estos deben de ser nombrado con el nombre del bloque o elemento,
+        seguido de dos guioenes medios (--) y además la clase principal del bloque o del elemento.
+    </p>
+    <img src="../img/modifier.png" alt="Modifier">
+    <br>
+
+    <input type="button" class="botones" value="Home" onclick="location.href='../index.html'">
+    
+</body>
+</html>
