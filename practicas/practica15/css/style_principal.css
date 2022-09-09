@@ -1,0 +1,96 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700;800;900&display=swap");
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+body {
+    background-color: #031321;
+}
+
+.titulo {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    text-align: center;
+    font-style: italic;
+    color: #fff9;
+}
+
+.botones {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 15px;
+    padding: 10px;
+    border: 5px 5px darkslategray;
+    border-radius: 15px;
+    color: white;
+    background-color: orangered;
+    cursor: pointer;
+}
+
+/*A partir de aquí es para el menú circular*/
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 80vh;
+}
+
+.menu {
+    position: relative;
+    width: 300px;
+    height: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.menu li {
+    position: absolute;
+    left: 0;
+    list-style: none;
+    transform-origin: 150px;
+    font-size: 1.5em;
+    transition: 0.5s;
+    transition-delay: calc(0.1s * var(--i));
+    transform: rotate(0deg) translateX(130px);
+}
+
+.menu.active li {
+    transform: rotate(calc((360deg / 8) * var(--i)));
+}
+
+.menu li a {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 45px;
+    height: 45px;
+    background: white;
+    border-radius: 50%;
+    box-shadow: 0 4px 5px #000f;
+}
+
+.toggle {
+    position: inherit;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 90px;
+    height: 90px;
+    background: white;
+    border-radius: 50%;
+    font-size: 3em;
+    box-shadow: 0 4px 5px #000f;
+    cursor: pointer;
+    z-index: 1;
+    transition: 1.25s;
+}
+
+.menu.active .toggle {
+    transform: rotate(315deg);
+}
