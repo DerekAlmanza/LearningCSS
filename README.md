@@ -38,7 +38,6 @@ Lugares para apoyarse en investigación:
             * Otros atributos.
     * Selectores compuestos.
         * Selectores agrupados.
-    <!--     * Selectores combinados. -->
         * Pseudoclases.
           * hover - active.
           * nth-child - nth-of-type.
@@ -109,3 +108,4 @@ Lugares para apoyarse en investigación:
 * Práctica 14. Modo oscuro en página web.
 * Práctica 15. Menú circular desplegable.
 * Práctica 16. Tarjetas fluorescentes.
+* Práctica 17. Botón con efecto hover "energy"
