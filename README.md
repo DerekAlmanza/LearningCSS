@@ -109,3 +109,4 @@ Lugares para apoyarse en investigación:
 * Práctica 15. Menú circular desplegable.
 * Práctica 16. Tarjetas fluorescentes.
 * Práctica 17. Botón con efecto hover "energy"
+* Práctica 18. Slider de imágenes responsivo.

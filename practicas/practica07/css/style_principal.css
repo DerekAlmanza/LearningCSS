@@ -63,4 +63,5 @@ body {
     color: white;
     background-color: orangered;
     cursor: pointer;
+    z-index: 10;
 }
